@@ -1,0 +1,61 @@
+/* limpar formatação padrão dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvatica, sans-serif;
+    background: #f3f3f3;
+}
+
+nav{
+    background: #fff;
+    border-bottom: 3px solid #d8d8d8;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto; /*centraliza*/
+}
+
+.verde {
+    color: #b9c941;
+}
+
+#logo {
+    float: left;
+    height: 45px;
+    padding: 11.25px 0; /*centraliza, como a altura é 45, o meio é em 45*(1/2)px. Então para ficar bem no meio da altura, precisamos de 45*(1/2)*(1/2)px = 11.25px*/
+    box-sizing: border-box;
+}
+
+#menu {
+    float: right;
+    height: 45px;
+    padding: 11.25px 0; /*centraliza, como a altura é 45, o meio é em 45*(1/2)px. Então para ficar bem no meio da altura, precisamos de 45*(1/2)*(1/2)px = 11.25px*/
+    box-sizing: border-box;
+}
+
+/* formatação menu */
+a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+a:link, a:visited {
+            color: #838383;
+}
+
+a:hover {
+    background: #b9c941;
+    color: white;
+}
